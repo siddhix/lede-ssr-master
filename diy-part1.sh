@@ -18,6 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 #rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
-rm -rf package/helloworld
+#rm -rf package/helloworld
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
-git -C package/helloworld pull
+#git -C package/helloworld pull
